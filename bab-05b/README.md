@@ -401,4 +401,5 @@ export class RegisterForm {
 
 Form dan validasi sudah lengkap. Sekarang kembali ke komponen — kita perdalam dengan custom attributes dan HTML-only components.
 
+→ [Bab 05: Binding Lengkap](../bab-05/README.md) ← kembali ke induk
 → [Bab 06: Komponen & Komunikasi](../bab-06/README.md)

@@ -2,11 +2,11 @@
 
 > Kalau kamu datang dari React, pergeseran terbesar yang perlu kamu lakukan adalah ini: **berhenti berpikir bahwa komponen harus berupa fungsi yang dijalankan ulang setiap kali state berubah.** Di Aurelia, komponen adalah class yang hidup sekali — dan sistem observasi-nya yang bekerja di belakang layar.
 >
-> **Catatan tentang perbandingan:** Bab ini membandingkan Aurelia dengan React untuk membantu kamu yang datang dari React memahami perbedaan mental model. Tapi ingat: Aurelia (Enterprise OOP) dan React (Functional Re-Render) adalah budaya yang berbeda. Ini bukan perbandingan "mana yang lebih baik" — ini penjelasan "bagaimana cara kerjanya berbeda". Lihat `FRAMEWORK_POSITIONING.md` untuk analisis lengkap tentang tiga klaster paradigma frontend.
+> **Catatan tentang perbandingan:** Bab ini memperbandingkan Aurelia dengan React dan Vue untuk membantu memahami perbedaan mental model. Ini bukan perbandingan "mana yang lebih baik" — ini penjelasan "bagaimana cara kerjanya berbeda". Aurelia (Enterprise OOP), React (Functional Re-Render), dan Vue (Pragmatic Reactivity SFC) hidup di tiga klaster budaya yang berbeda. Analisis lengkap empat klaster ada di [`FRAMEWORK_POSITIONING.md`](../FRAMEWORK_POSITIONING.md).
 
 ---
 
-## React dan Aurelia Hidup di Budaya yang Berbeda
+## React, Vue, dan Aurelia: Tiga Cara Berbeda Menjawab Masalah yang Sama
 
 Sebelum masuk ke kode, pahami dulu perbedaan fundamental:
 
@@ -115,6 +115,28 @@ Pola ini mirip dengan `watch` di Vue atau `ngOnChanges` di Angular — tapi lebi
 ## Lifecycle: Komponen Punya Tahapan Hidup
 
 Karena komponen hanya dibuat sekali, ia punya siklus hidup yang jelas:
+
+```
+Urutan lifecycle hooks (dari atas ke bawah):
+
+  constructor()     ← injeksi service, setup awal
+       │
+  binding()         ← bindable sudah di-assign, bisa load data (async OK)
+       │
+  bound()           ← template aktif, ref tersedia
+       │
+  attaching()       ← DOM insertion sedang terjadi
+       │
+  attached()        ← komponen & semua child sudah di DOM ← setup 3rd-party lib
+       │
+  ···· user berinteraksi ····
+       │
+  detaching()       ← sebelum keluar DOM ← cleanup DOM listeners
+       │
+  unbinding()       ← bindings dilepas ← dispose subscriptions
+       │
+  dispose()         ← teardown permanen (view di-cache tidak sampai sini)
+```
 
 ```typescript
 export class MyComponent {

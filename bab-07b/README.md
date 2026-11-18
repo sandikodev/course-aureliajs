@@ -380,4 +380,5 @@ test('panel tersembunyi lagi setelah toggle kedua', async () => {
 
 Testing sudah lengkap. Sekarang kembali ke routing untuk perdalam dengan nested routing dan 404 handling.
 
+→ [Bab 07: Dependency Injection](../bab-07/README.md) ← kembali ke induk
 → [Bab 08: Routing](../bab-08/README.md)

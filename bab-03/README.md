@@ -2,26 +2,7 @@
 
 > Bab ini untuk kamu yang sudah kenal Angular atau AngularJS. Kalau belum, tidak masalah — langsung lompat ke Bab 04. Tapi kalau kamu punya background Angular, bab ini akan menghemat banyak waktu karena kita petakan secara langsung apa yang sama, apa yang berbeda, dan apa yang lebih baik.
 
----
-
-## Catatan tentang Vue — Rivalitas Populer yang Kurang Tepat Secara Teknis
-
-Sebelum masuk ke perbandingan Angular vs Aurelia, ada salah kaprah umum yang perlu diluruskan: **Vue sering dianggap rival React, padahal secara teknis Vue jauh lebih dekat ke Svelte.**
-
-Keduanya — Vue dan Svelte — adalah SFC (Single File Component): satu file `.vue` atau `.svelte` berisi template, logic, dan style. Keduanya menggunakan reaktivitas berbasis mutasi langsung (bukan immutability seperti React). Keduanya membuat komponen sebagai unit stateful yang hidup, bukan fungsi yang re-run.
-
-Perbedaan teknisnya: Svelte kompilasi reaktivitas menjadi kode imperatif tanpa runtime; Vue menggunakan ES6 Proxy sebagai runtime reaktivitas. Tapi model mental dan cara menulisnya sangat mirip.
-
-Mengapa ini relevan untuk bab ini? Karena Vue punya "rasa Angular" lewat Options API-nya (`data()`, `methods`, `computed`) yang membuat developer Angular merasa "familiar" saat pertama melihat Vue. Tapi itu adalah rasa permukaan — mekanisme reaktivitas Vue dan Angular sama sekali berbeda.
-
-**Klaster yang benar:**
-- Angular + Aurelia → **Klaster OOP Enterprise** (class, DI, HTML template terpisah)
-- Vue → **Klaster Pragmatic Reactivity SFC** (lebih dekat Svelte daripada Angular)
-- React → **Klaster Functional Re-Render** (fungsi yang re-run, JSX)
-
-Aurelia dan Angular berada di klaster yang sama. Itulah kenapa bab ini punya makna — perbandingan dalam satu klaster adalah perbandingan yang adil.
-
-> Detail lengkap empat klaster paradigma: lihat `FRAMEWORK_POSITIONING.md`
+> **Catatan singkat sebelum mulai:** Aurelia dan Angular berada di klaster paradigma yang sama — keduanya Enterprise Class OOP. Itulah kenapa perbandingan di bab ini bermakna. Vue, React, dan Svelte hidup di klaster yang berbeda sehingga perbandingan dengan mereka adalah perbandingan lintas-budaya. Analisis lengkapnya ada di [`FRAMEWORK_POSITIONING.md`](../FRAMEWORK_POSITIONING.md).
 
 ---
 

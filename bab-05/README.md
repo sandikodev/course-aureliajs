@@ -19,6 +19,25 @@ Class TypeScript  ←─────────────────→  Tem
 (View Model)         two-way            (View)
 ```
 
+Dipetakan ke sintaks Aurelia:
+
+```
+Arah aliran          Sintaks              Kapan dipakai
+─────────────────────────────────────────────────────────
+Class → Template    ${nilai}             Interpolasi teks
+                    prop.to-view         Atribut satu arah
+                    prop.bind            Otomatis (non-form)
+
+Template → Class    prop.from-view       Output komponen
+                    ref="elRef"          Referensi elemen DOM
+
+Dua arah            prop.bind            Otomatis (form input)
+                    prop.two-way         Eksplisit dua arah
+
+Event               click.trigger        DOM events
+                    submit.trigger:prevent  Form submit
+```
+
 Aurelia punya binding yang eksplisit untuk setiap arah ini.
 
 ---
