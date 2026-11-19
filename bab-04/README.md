@@ -443,5 +443,5 @@ void Aurelia.register(
 
 Project sudah jalan. Sekarang kita masuk ke bagian yang paling sering dipakai setiap hari: **binding** — cara Aurelia menghubungkan data di class TypeScript dengan tampilan di template HTML.
 
-→ [Bab 05: Binding](../bab-05/README.md)
+→ [Bab 05: Binding Lengkap](../bab-05/README.md)
 → [Bab 05b: Forms & Validation](../bab-05b/README.md)

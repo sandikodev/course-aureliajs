@@ -143,7 +143,8 @@ TypeScript: stage-3 decorators (`experimentalDecorators: false`)
 | Chapter | Status | Catatan |
 |---------|--------|---------|
 | MASTER_PLAN.md | ✅ Done | Dokumen ini — diperbarui dengan aturan positioning |
-| FRAMEWORK_POSITIONING.md | ✅ Done | Tiga klaster paradigma, Angular 22 vs Aurelia RC.2, kemampuan agnostik, aturan perbandingan |
+| FRAMEWORK_POSITIONING.md | ✅ Done | Empat klaster paradigma, Vue positioning, Angular 22 vs Aurelia RC.2, kemampuan agnostik, aturan perbandingan |
+| ARTIKEL-ISLANDS.md | ✅ Done | Bonus: Aurelia 2 host 6 framework sekaligus (artikel eksplorasi lanjut, baca setelah Bab 09) |
 | README.md | ✅ Done | Overview course untuk pembaca |
 | bab-01/ | ✅ Done | Kenapa Aurelia + tiga klaster paradigma + framing RC status + peluang karier jujur |
 | bab-02/ | ✅ Done | Mental Model Baru + catatan "perbedaan budaya bukan mana lebih baik" |

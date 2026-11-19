@@ -49,7 +49,8 @@ Pilih jalur baca sesuai background kamu:
 | File | Isi |
 |------|-----|
 | `MASTER_PLAN.md` | Panduan pengerjaan course, keputusan desain, status semua bab |
-| `FRAMEWORK_POSITIONING.md` | **Wajib baca** — analisis tiga klaster paradigma frontend, kenapa Aurelia tidak bisa dibandingkan dengan React/Svelte, perbandingan jujur Angular 22 vs Aurelia RC.2 |
+| `FRAMEWORK_POSITIONING.md` | **Wajib baca** — analisis empat klaster paradigma frontend, kenapa Aurelia tidak bisa dibandingkan dengan React/Svelte, perbandingan jujur Angular 22 vs Aurelia RC.2 |
+| `ARTIKEL-ISLANDS.md` | **Bonus material** — eksplorasi lanjut: Aurelia 2 sebagai host untuk React, Vue, Svelte, Solid, Preact, dan Qwik sekaligus dalam satu monorepo. Baca setelah Bab 09. |
 
 ## Referensi Kode
 
