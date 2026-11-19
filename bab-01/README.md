@@ -231,3 +231,24 @@ Kode yang kamu pelajari di course ini bukan teori — ini kode yang sudah berjal
 Di bab berikutnya, kita akan membongkar mental model paling penting yang perlu kamu pahami sebelum menulis satu baris pun kode Aurelia: **mengapa komponen = class biasa itu bukan keterbatasan, tapi kekuatan.**
 
 → [Bab 02: Mental Model Baru](../bab-02/README.md)
+
+
+---
+
+## Mengapa Course Ini Berbeda dari Tutorial Aurelia yang Lain
+
+Ada beberapa tutorial Aurelia di internet — kebanyakan sudah outdated atau fokus ke versi 1. Course ini berbeda karena:
+
+**1. Berbasis proyek nyata.**
+Semua contoh kode diambil dari Aurelia Ops — SaaS admin dashboard yang dibangun di production shape. Bukan todo app. Bukan counter. Aplikasi dengan multi-tenancy, billing Stripe, auth Argon2id, dan 1.000 baris data seeded.
+
+**2. Jujur tentang keterbatasan.**
+Aurelia 2 masih RC.2. Angular sudah versi 22. Job Aurelia di Upwork hanya 15–30 aktif. Course ini tidak menyembunyikan realita ini — justru memanfaatkannya sebagai bagian dari strategi yang jujur.
+
+**3. Framework positioning yang benar.**
+Aurelia bukan rival React atau Vue — mereka hidup di klaster paradigma yang berbeda. Course ini menjelaskan ini dari awal supaya kamu bisa berbicara tentang Aurelia dengan positioning yang akurat, bukan dengan klaim yang menyesatkan.
+
+**4. Target karier yang spesifik.**
+Bukan "pelajari Aurelia karena bagus." Tapi "pelajari Aurelia karena ini niche dengan demand nyata dan hampir tidak ada kompetitor qualified."
+
+Kalau kamu datang ke sini dengan ekspektasi belajar framework yang akan menggantikan React — kamu datang ke tempat yang salah. Kalau kamu datang dengan ekspektasi memahami framework yang punya ceruk pasar yang nyata dan spesifik dengan kompetisi yang sangat rendah — kamu di tempat yang tepat.

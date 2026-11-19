@@ -309,3 +309,35 @@ Satu proposal yang dikirim lebih berharga dari 10 yang belum pernah dikirim.
 ---
 
 *Semoga berhasil. Kalau ada pertanyaan, hubungi @sandikodev di TikTok atau Facebook.*
+
+
+---
+
+## Apa Selanjutnya Setelah Portfolio
+
+Setelah kamu punya portfolio yang siap — demo berjalan, case study ditulis, profil Upwork diisi — langkah berikutnya bukan menunggu job datang sendiri.
+
+**Langkah 1: Kirim 10 proposal yang didiagnosis.**
+Bukan 1. Bukan 5. 10. Ini angka minimum untuk mendapat data tentang apa yang beresonansi dengan klien. Kalau dari 10, 3 membalas — kamu sudah di atas rata-rata.
+
+**Langkah 2: Track dan iterasi.**
+Simpan semua proposal yang kamu kirim. Setelah 2 minggu, lihat pola: proposal mana yang mendapat respons? Baris mana yang terasa klik? Pertanyaan teknis mana yang menunjukkan kamu paham domain-nya?
+
+**Langkah 3: Jadikan Rescue Audit sebagai pintu masuk default.**
+Jangan langsung menawarkan retainer atau sprint besar. Rescue Audit adalah proposisi risiko rendah untuk klien — dan setelah selesai dengan bagus, Tingkat 2 dan 3 hampir selalu terbuka sendiri.
+
+**Langkah 4: Dokumentasikan setiap proyek.**
+Setiap proyek yang selesai adalah case study potensial. Ambil screenshot. Tulis 3 paragraf: masalah → apa yang kamu lakukan → hasilnya. Ini yang membangun portfolio yang semakin kuat setiap proyek.
+
+**Langkah 5: Harga naik setelah 2 proyek sukses.**
+Kalau kamu memulai dengan rate rendah untuk Rescue Audit pertama — itu wajar. Tapi setelah 2 proyek sukses dengan testimonial yang nyata, naikkan harga 20–30% untuk klien baru. Pasar akan memberitahumu apakah kamu sudah di rate yang tepat.
+
+---
+
+## Bacaan Lanjut
+
+Kalau kamu ingin memahami lebih dalam tentang ekosistem web dan kenapa Aurelia ada di ceruk yang ia ada — baca companion course:
+
+**[Evolusi Web: Dari Browser ke Infrastruktur](https://github.com/sandikodev/course-evolusi-web)**
+
+Course itu bukan tutorial teknis. Itu adalah peta ekosistem web — dari sejarah, substrate JavaScript, paradigma rendering, sampai stack philosophy — yang akan membantumu berbicara tentang trade-off dengan lebih jernih kepada klien.
